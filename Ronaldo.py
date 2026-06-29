@@ -14,7 +14,7 @@ client = AsyncOpenAI(
     api_key=OPENROUTER_API_KEY,
 )
 
-MODEL = "google/gemini-2.0-flash-001"  # Бесплатная модель!
+MODEL = "google/gemini-2.0-flash"  # Бесплатная модель!
 
 bot = Bot(token=TELEGRAM_TOKEN)
 dp = Dispatcher()
